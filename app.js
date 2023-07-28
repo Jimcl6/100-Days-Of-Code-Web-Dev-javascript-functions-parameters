@@ -47,12 +47,22 @@ let adultYears;
 //    let adultYears = code-value;
 //
 // }
+// 
+// ----------------syntax to declaring a parameter of a function:----------------
+// function calculateAdultYears(userAge) {
+//     var result;
+//     result = userAge - 18;
+//     return result;
+// }
+// ----------------end of syntax to declaring a parameter of a function:----------------
 
-function calculateAdultYears() {
-    return age - 18;
+function calculateAdultYears(userAge) {
+    var result;
+    result = userAge - 18;
+    return result;
 }
 
-adultYears = calculateAdultYears();
+adultYears = calculateAdultYears(age);
 
 // -------------------------------------------------------------------------
 // Self code exercise section.
